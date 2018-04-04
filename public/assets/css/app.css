@@ -1,0 +1,208 @@
+html, body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  font-size: 18px;
+  font-weight: 100;
+}
+
+h1{
+  font-size: 6rem;
+  margin-bottom: 40px;
+  font-weight: 100 !important;
+}
+
+h2{
+  font-size: 2rem;
+  font-weight: 300 !important;
+  margin-bottom: 20px;
+}
+
+header{
+  background-image: url('../images/rainbow-mac.jpg');
+  min-height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+hr{
+  border: 0.5px solid #fff;
+  width: 80%;
+}
+
+.overlay{
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.period{
+  color: #b71540;
+}
+
+.intro-text{
+  color: #fff;
+  margin-top: 50px;
+  padding: 50px;
+}
+
+.intro-text h1, .intro-text h2{
+  font-weight: 500;
+}
+
+.intro-bullet{
+  margin-right: 20px;
+  font-size: 1.5rem;
+}
+
+.navbar-toggler{
+  border: 0;
+}
+
+.nav-toggle, .navbar-brand{
+  color: #fff;
+  font-size: 24px;
+}
+
+.social-float{
+  position: absolute;
+  right: 25px;
+  top: 120px;
+  font-size: 32px;
+  color: #fff;
+}
+
+.social-float ul{
+  list-style-type: none;
+}
+
+.social-float li{
+  margin: 5px 0 5px 0;
+}
+
+
+.welcome{
+  background-color: #b71540;
+  padding: 50px;
+  color: #fff;
+  text-align: left;
+}
+
+.welcome p{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 100;
+}
+
+.welcome h1{
+  font-size: 5rem;
+}
+
+/* .spotlight p{
+  color: #b71540;
+  font-weight: 700;
+  margin-top: 20px;
+  font-size: 32px;
+  text-transform: uppercase;
+} */
+
+.number-spot{
+  padding: 50px;
+  width: 25%;
+  text-align: center;
+}
+
+.number-spot:nth-child(even) {
+  background: #c0c0c0;
+}
+
+.number-spot:nth-child(odd) {
+  background: #a9a9a9;
+}
+
+.number-spot img{
+  max-height: 150px;
+}
+
+.writer-topics{
+  padding:50px;
+}
+
+.writer-topics h4{
+  display: inline;
+}
+
+.fa-icon{
+  font-size: 50px;
+  margin-right: 5px;
+  vertical-align: -1.5rem;
+  color: #b71540;
+}
+
+.writer-topics p {
+  font-size: 16px;
+  margin: 0 0 60px 55px;
+  padding-right: 30px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
+
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+  h1{
+    font-size: 2rem;
+  }
+  h2{
+    font-size: 1rem;
+  }
+
+  .welcome{
+    padding: 50px 30px 50px 20px;
+  }
+
+  .intro-bullet{
+    margin-right: 5px;
+    font-size: 0.75rem;
+  }
+
+  .welcome h1{
+    font-size: 3rem;
+  }
+
+  .welcome p{
+    font-size: 1rem;
+  }
+
+
+  .writer-topics{
+    padding: 50px 30px 50px 20px;
+  }
+
+  .fa-icon{
+    font-size: 30px;
+    margin-right: 5px;
+    vertical-align: -0.2rem;
+    color: #b71540;
+  }
+
+  .writer-topics p {
+    font-size: 0.9rem;
+    margin: 0 0 60px 0;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+  }
+}
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+  .social-float{
+    display: none;
+  }
+}
+
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { ... }
+
+/*Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) { ... }
