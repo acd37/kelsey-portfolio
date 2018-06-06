@@ -7,7 +7,7 @@
 
 ## Technology
 * Firebase, NPM, Heroku, HTML5, CSS3, Bootstrap
-* Live demo: kelseydown.com
+* Live demo: http://kelseydown.com
 
 ## About
 *  Basic portfolio showcasing my work
