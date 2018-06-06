@@ -1,8 +1,8 @@
 # Portfolio
 
 ## Contributors
-@acd37
-Kelsey Down
+* @acd37
+* Kelsey Down
 
 
 ## Technology
