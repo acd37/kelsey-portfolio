@@ -10,7 +10,7 @@
 * Live demo: http://kelseydown.com
 
 ## About
-*  Basic portfolio showcasing my work
+*  Basic portfolio showcasing Kelsey Down's work
 
 
 ## License 
